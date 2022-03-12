@@ -100,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13CD015027DD47E000AB6022 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				13CD014E27DD32B100AB6022 /* EasyDateFormatter.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		31A6AB8F29A6D2F91AE515FC8B8D4908 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +154,7 @@
 		AD0427B261CAF269F42F8E1E6B166604 /* EasyDateFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				13CD014E27DD32B100AB6022 /* EasyDateFormatter.swift */,
+				13CD015027DD47E000AB6022 /* Sources */,
 				8257DB84E9BCC75B4134C59AFEBFAC17 /* Pod */,
 				FEB71FA030CEF1F5F4B61296FF11318D /* Support Files */,
 			);

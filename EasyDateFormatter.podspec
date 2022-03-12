@@ -30,7 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'EasyDateFormatter/Classes/**/*'
+  #s.source_files = 'EasyDateFormatter/Classes/**/*'
+  s.source_files = 'Sources/*.swift'
   
   # s.resource_bundles = {
   #   'EasyDateFormatter' => ['EasyDateFormatter/Assets/*.png']
