@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'EasyDateFormatter_Example' do
+  pod 'EasyDateFormatter', :path => '../'
+
+  target 'EasyDateFormatter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
