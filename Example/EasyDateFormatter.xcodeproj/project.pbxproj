@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2870A3BBBD100D19167A1B8E /* Pods_EasyDateFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyDateFormatter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		30C14F0D4405BEB4CBFC2DEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30C14F0D4405BEB4CBFC2DEF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3A09173390DD5DD948D1EDC5 /* Pods-EasyDateFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDateFormatter_Tests.release.xcconfig"; path = "Target Support Files/Pods-EasyDateFormatter_Tests/Pods-EasyDateFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EasyDateFormatter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyDateFormatter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		84CFFDB06E591767F067123D /* Pods-EasyDateFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDateFormatter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EasyDateFormatter_Tests/Pods-EasyDateFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B3F3F28DE66A76F3CCA48149 /* EasyDateFormatter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EasyDateFormatter.podspec; path = ../EasyDateFormatter.podspec; sourceTree = "<group>"; };
+		B3F3F28DE66A76F3CCA48149 /* EasyDateFormatter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EasyDateFormatter.podspec; path = ../EasyDateFormatter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B8E7D25CD80CA312C22AFE45 /* Pods-EasyDateFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDateFormatter_Example.debug.xcconfig"; path = "Target Support Files/Pods-EasyDateFormatter_Example/Pods-EasyDateFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C39E9514B98F2C9D02F1A740 /* Pods_EasyDateFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyDateFormatter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDB2A98E16520D1876DCCA1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EDB2A98E16520D1876DCCA1B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF01B681412C385759919A46 /* Pods-EasyDateFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyDateFormatter_Example.release.xcconfig"; path = "Target Support Files/Pods-EasyDateFormatter_Example/Pods-EasyDateFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				84CFFDB06E591767F067123D /* Pods-EasyDateFormatter_Tests.debug.xcconfig */,
 				3A09173390DD5DD948D1EDC5 /* Pods-EasyDateFormatter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

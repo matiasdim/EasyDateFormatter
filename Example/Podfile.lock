@@ -1,0 +1,16 @@
+PODS:
+  - EasyDateFormatter (0.1.0)
+
+DEPENDENCIES:
+  - EasyDateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  EasyDateFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyDateFormatter: 219d0c343ba635ed1abf6ca1b850af27aacaa60d
+
+PODFILE CHECKSUM: 9a2ccc847083d768302ecd13cdfc201f364b88ee
+
+COCOAPODS: 1.10.2
