@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let currentDate = Date()
         let localeID = "es"
         let stringFormat = "EEEE, MMM d, yyyy"
-        let formatterConfig = FormatterConfiguration(format: stringFormat, locale: localeID)
+        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: localeID)
         let stringDate = currentDate.toString(withConfiguration: formatterConfig)
         let alertController = UIAlertController(title: "Current date", message: "Current Date in '\(localeID)' for the format '\(stringFormat)' is: \n\n  \(stringDate)", preferredStyle: .alert)
         
