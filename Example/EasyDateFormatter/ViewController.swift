@@ -11,8 +11,7 @@ import EasyDateFormatter
 
 class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
+        super.viewDidAppear(animated)        
         let currentDate = Date()
         let localeID = "es"
         let stringFormat = "EEEE, MMM d, yyyy"

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E3A3C5F5631AF0A1610D6255125FD50 /* Pods-EasyDateFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DADE874DA1B0724745D99D6996E83F61 /* Pods-EasyDateFormatter_Tests-dummy.m */; };
 		0F9C71F713256989A4AF9CA0D889CB8D /* Pods-EasyDateFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B0BC1323EA7E09FC5F5BCA11BD2964 /* Pods-EasyDateFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B7D95527DE6FDC00F5B3EF /* FormatterConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B7D95427DE6FDC00F5B3EF /* FormatterConfiguration.swift */; };
 		13CD014F27DD32B100AB6022 /* EasyDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CD014E27DD32B100AB6022 /* EasyDateFormatter.swift */; };
 		5A6014F85AC6D65B2437B5EA462C2978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8DC8A3D454AF0DF6FA55DE257C409D9D /* Pods-EasyDateFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 997E0C8343601DE6A4623C30610F90FE /* Pods-EasyDateFormatter_Example-dummy.m */; };
@@ -40,6 +41,7 @@
 		017AAE97E574C91775205E3C5B330DF2 /* Pods-EasyDateFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyDateFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		064C46621018116CBAA89E858C2C8E84 /* EasyDateFormatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyDateFormatter.release.xcconfig; sourceTree = "<group>"; };
 		0C86FF40812937014FFD2F5837F87150 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		13B7D95427DE6FDC00F5B3EF /* FormatterConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterConfiguration.swift; sourceTree = "<group>"; };
 		13CD014E27DD32B100AB6022 /* EasyDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyDateFormatter.swift; sourceTree = "<group>"; };
 		17A4196CEA5BBC9215D12E47E2753297 /* Pods-EasyDateFormatter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyDateFormatter_Tests-Info.plist"; sourceTree = "<group>"; };
 		3638469B6CBD8B4DE99F45D131AAAF51 /* EasyDateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyDateFormatter-umbrella.h"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				13CD014E27DD32B100AB6022 /* EasyDateFormatter.swift */,
+				13B7D95427DE6FDC00F5B3EF /* FormatterConfiguration.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CD014F27DD32B100AB6022 /* EasyDateFormatter.swift in Sources */,
+				13B7D95527DE6FDC00F5B3EF /* FormatterConfiguration.swift in Sources */,
 				CE2FDE76392BE13358650258BFA987B6 /* EasyDateFormatter-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
