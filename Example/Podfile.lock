@@ -1,5 +1,5 @@
 PODS:
-  - EasyDateFormatter (0.1.0)
+  - EasyDateFormatter (0.2.1)
 
 DEPENDENCIES:
   - EasyDateFormatter (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyDateFormatter: 219d0c343ba635ed1abf6ca1b850af27aacaa60d
+  EasyDateFormatter: 48347b8a5738e77468437fdd7720a923ceb9b564
 
 PODFILE CHECKSUM: 9a2ccc847083d768302ecd13cdfc201f364b88ee
 
