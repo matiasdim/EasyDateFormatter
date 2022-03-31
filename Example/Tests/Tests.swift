@@ -21,11 +21,4 @@ class Tests: XCTestCase {
         XCTAssertEqual(stringDate, "Saturday, Feb 1, 1997")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

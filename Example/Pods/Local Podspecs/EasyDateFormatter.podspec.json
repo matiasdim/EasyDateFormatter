@@ -4,7 +4,7 @@
   "summary": "An easy library extending Date class to convert your dates to string",
   "swift_versions": "5.0",
   "description": "An easy library extending Swift Date to convert your dates to string.",
-  "homepage": "https://github.com/matiasdim/EasyDateFormatter",
+  "homepage": "https://github.com/matiasdim/EasyDateFormatter.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -20,5 +20,12 @@
     "ios": "9.0"
   },
   "source_files": "EasyDateFormatter/Classes/**/*",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "EasyDateFormatter/Tests/**/*"
+    }
+  ],
   "swift_version": "5.0"
 }

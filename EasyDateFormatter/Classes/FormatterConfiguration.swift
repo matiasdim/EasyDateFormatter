@@ -14,7 +14,7 @@ public class FormatterConfiguration {
     
     /// Initialization of FormatterConfiguration
     /// - Parameters:
-    ///   - format: The desired string format to convert the date to
+    ///   - format: The desired string format to convert the date to. e.g. "EEEE, MMM d, yyyy"
     ///   - locale: The desired locale to use when formatting the date. Look for the identifiers given by 'NSLocale.availableLocaleIdentifiers'. The default value is 'en'.
     public init(format: String, locale: String = "en") {
         self.format = format

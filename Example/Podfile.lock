@@ -1,16 +1,18 @@
 PODS:
   - EasyDateFormatter (0.2.1)
+  - EasyDateFormatter/Tests (0.2.1)
 
 DEPENDENCIES:
   - EasyDateFormatter (from `../`)
+  - EasyDateFormatter/Tests (from `../`)
 
 EXTERNAL SOURCES:
   EasyDateFormatter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EasyDateFormatter: 48347b8a5738e77468437fdd7720a923ceb9b564
+  EasyDateFormatter: 3946419f0f953bb16d75fdc8aa16946d47ff2637
 
-PODFILE CHECKSUM: 9a2ccc847083d768302ecd13cdfc201f364b88ee
+PODFILE CHECKSUM: 9a20e7e64d4005b231eb8348799dbd0581ea3c4c
 
 COCOAPODS: 1.10.2

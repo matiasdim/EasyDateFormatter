@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   An easy library extending Swift Date to convert your dates to string.
                        DESC
 
-  s.homepage         = 'https://github.com/matiasdim/EasyDateFormatter'
+  s.homepage         = 'https://github.com/matiasdim/EasyDateFormatter.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'matiasdim' => 'matias3@gmail.com' }
   s.source           = { :git => 'https://github.com/matiasdim/EasyDateFormatter.git', :tag => s.version.to_s }
@@ -16,4 +16,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'EasyDateFormatter/Classes/**/*'
+  
+  s.test_spec 'Tests' do |test_spec|
+      test_spec.source_files = 'EasyDateFormatter/Tests/**/*'
+  end
 end
