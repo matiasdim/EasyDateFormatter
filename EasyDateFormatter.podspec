@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyDateFormatter'
-  s.version          = '0.2.1'
+  s.version          = '0.2.2'
   s.summary          = 'An easy library extending Date class to convert your dates to string'
   s.swift_version = '5.0'
 
