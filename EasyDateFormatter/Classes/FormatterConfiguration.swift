@@ -9,8 +9,8 @@ import Foundation
 
 /// The configuration parameters to use Date's toString method
 public class FormatterConfiguration {
-    let format: String
-    let locale: String
+    public let format: String
+    public let locale: String
     
     /// Initialization of FormatterConfiguration
     /// - Parameters:

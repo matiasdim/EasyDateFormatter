@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import EasyDateFormatter
 
 class Tests: XCTestCase {
     
