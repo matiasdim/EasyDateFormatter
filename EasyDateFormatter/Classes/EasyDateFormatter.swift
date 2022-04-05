@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Date {
+extension Date {    
     /// Converts a date to String using the provided parameters
     /// - Parameter configuration: FormatterConfiguration includes needed configuration parameters
     /// - Returns: The formatted string date
