@@ -3,26 +3,23 @@ import EasyDateFormatter
 
 class Tests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    let stringFormat = "EEEE, MMM d, yyyy"
+    let currentDate = Date(timeIntervalSinceReferenceDate: -123456789.0) // Sunday, Feb 2, 1997 in GMT
+    let defaultTimeZone = TimeZone.init(identifier: "GMT")!
+    
+    func testCorrectSpanishFormattedDate() {
+        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "es", timeZone: defaultTimeZone)
+        let stringDate = currentDate.toString(withConfiguration: formatterConfig)
+        
+        XCTAssertEqual(stringDate, "domingo, feb 2, 1997")
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testCorrectEnglishFormattedDate() {
+        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "en", timeZone: defaultTimeZone)
+        let stringDate = currentDate.toString(withConfiguration: formatterConfig)
+        
+        XCTAssertEqual(stringDate, "Sunday, Feb 2, 1997")
     }
     
 }

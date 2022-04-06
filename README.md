@@ -22,7 +22,7 @@ pod 'EasyDateFormatter'
 
 ## Author
 
-matiasdim, matias@backbase.com
+matiasdim, matiasdim3@gmail.com
 
 ## License
 
