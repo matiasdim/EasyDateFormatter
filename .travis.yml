@@ -10,5 +10,5 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/EasyDateFormatter.xcworkspace -scheme EasyDateFormatter-Example -sdk iphonesimulator -destination "generic/platform=iOS Simulator,OS=13.0,name=iPhone X" ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/EasyDateFormatter.xcworkspace -scheme EasyDateFormatter-Example -destination "generic/platform=iOS Simulator,OS=13.0,name=iPhone X" ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
