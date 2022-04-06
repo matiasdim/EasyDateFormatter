@@ -28,7 +28,7 @@ Matías Gil-Echavarría
 
 matiasdim3@gmail.com
 
-[matiasdim.co](https://matiasdim.co)
+[matiasdim.co](https://www.matiasdim.co/)
 
 ## License
 
