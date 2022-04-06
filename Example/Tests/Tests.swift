@@ -4,21 +4,22 @@ import EasyDateFormatter
 class Tests: XCTestCase {
     
     let stringFormat = "EEEE, MMM d, yyyy"
-    let currentDate = Date(timeIntervalSinceReferenceDate: -123456789.0) // Saturday, Feb 1, 1997
+    let currentDate = Date(timeIntervalSinceReferenceDate: -123456789.0) // Sunday, Feb 2, 1997 in GMT
+    let defaultTimeZone = TimeZone.init(identifier: "GMT")!
     
     func testCorrectSpanishFormattedDate() {
-        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "es")
+        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "es", timeZone: defaultTimeZone)
         let stringDate = currentDate.toString(withConfiguration: formatterConfig)
         
-        XCTAssertEqual(stringDate, "sábado, feb 1, 1997")
+        XCTAssertEqual(stringDate, "domingo, feb 2, 1997")
     }
     
     
     func testCorrectEnglishFormattedDate() {
-        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "en")
+        let formatterConfig = FormatterConfiguration.init(format: stringFormat, locale: "en", timeZone: defaultTimeZone)
         let stringDate = currentDate.toString(withConfiguration: formatterConfig)
         
-        XCTAssertEqual(stringDate, "Saturday, Feb 1, 1997")
+        XCTAssertEqual(stringDate, "Sunday, Feb 2, 1997")
     }
     
 }

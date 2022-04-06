@@ -16,6 +16,7 @@ extension Date {
         formatter.dateFormat = configuration.format
         let localeIdentifier = configuration.locale
         formatter.locale = Locale.init(identifier: localeIdentifier)
+        formatter.timeZone = configuration.timeZone
         
         return formatter.string(from: self)
     }

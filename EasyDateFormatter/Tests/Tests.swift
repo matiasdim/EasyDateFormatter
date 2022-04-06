@@ -15,12 +15,14 @@ class Tests: XCTestCase {
     let formatString = "EEEE, MMM d, yyyy"
     let spanishLocaleId = "es"
     let englishLocaleId = "en"
+    let defaultTimeZone = TimeZone.init(identifier: "GMT")!
 
     func testFormatterConfigurationInitialization() {
-        let sut = FormatterConfiguration(format: formatString, locale: spanishLocaleId)
+        let sut = FormatterConfiguration(format: formatString, locale: spanishLocaleId, timeZone: defaultTimeZone)
         
         XCTAssertEqual(formatString, sut.format)
         XCTAssertEqual(spanishLocaleId, sut.locale)
+        XCTAssertEqual(defaultTimeZone, sut.timeZone)
     }
     
     func testFormatterConfigurationDefaultLocale() {
@@ -29,13 +31,19 @@ class Tests: XCTestCase {
         XCTAssertEqual(englishLocaleId, sut.locale)
     }
     
+    func testFormatterConfigurationDefaultTimeZone() {
+        let sut = FormatterConfiguration(format: formatString, timeZone: defaultTimeZone)
+        
+        XCTAssertEqual(defaultTimeZone, sut.timeZone)
+    }
+    
     // MARK: - Date extension Tests
     
     func testDateToString() {
-        let formatterConfig = FormatterConfiguration.init(format: formatString)
+        let formatterConfig = FormatterConfiguration.init(format: formatString, timeZone: defaultTimeZone)
         let date = Date(timeIntervalSinceReferenceDate: -123456789.0)
         let stringDate = date.toString(withConfiguration: formatterConfig)
         
-        XCTAssertEqual(stringDate, "Saturday, Feb 1, 1997")
+        XCTAssertEqual(stringDate, "Sunday, Feb 2, 1997")
     }
 }
