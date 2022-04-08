@@ -4,6 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/EasyDateFormatter.svg?style=flat)](https://cocoapods.org/pods/EasyDateFormatter)
 [![License](https://img.shields.io/cocoapods/l/EasyDateFormatter.svg?style=flat)](https://cocoapods.org/pods/EasyDateFormatter)
 [![Platform](https://img.shields.io/cocoapods/p/EasyDateFormatter.svg?style=flat)](https://cocoapods.org/pods/EasyDateFormatter)
+[![Release Date](https://img.shields.io/github/release-date/matiasdim/EasyDateFormatter)](https://cocoapods.org/pods/EasyDateFormatter)
+[![Release Date](https://img.shields.io/twitter/follow/matiasdim?style=social)](https://twitter.com/matiasdim)
+
 
 This is an easy to use Swift library extending Date class to convert your dates to string. Soon more utilities to format a date will be added. Fell free to send pull request with functionalities you consider useful.
 
